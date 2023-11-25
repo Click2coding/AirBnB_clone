@@ -1,0 +1,23 @@
+.places {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.places h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    vertical-align: text-top;
+}
+
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    position: relative;
+    z-index: -1;
+}
